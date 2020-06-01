@@ -14,4 +14,4 @@ var Filter = props => (
     </li>
 );
 
-export var Filter;
+export default Filter;

@@ -6,7 +6,7 @@ import { filters } from "./data.js";
 var App = () => (
     <div className="App">
         {/* TODO: pass your data model as a prop to your Filters component */}
-        <FiltersList Filters={filters} />
+        <FiltersList filters={filters} />
     </div>
 );
 

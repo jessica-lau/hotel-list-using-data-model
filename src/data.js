@@ -1,5 +1,5 @@
 //TODO: add and export the data model for your list of filters
-var filters = [
+export var filters = [
     {
         id: 21,
         name: "Free Cancellation",
@@ -34,7 +34,18 @@ var filters = [
         id: 44,
         name: "Fitness Center",
         matchCount: 249
+    },
+    {
+        id: 45,
+        name: "Swimming Pool",
+        matchCount: 101
+    },
+    {
+        id: 45,
+        name: "Dining Area",
+        matchCount: 80
     }
+
 ];
 
-export default filters;
+
