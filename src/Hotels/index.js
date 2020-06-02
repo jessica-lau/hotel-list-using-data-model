@@ -1,4 +1,5 @@
 import React from "react";
+import Hotel from "./Hotel.js";
 // TODO: import functional component from the Hotel.js module
 
 /* callback function
@@ -7,7 +8,7 @@ import React from "react";
   - passes the `hotel` argument to each `Hotel` component as a prop called `hotel`
 */
 // TODO write this callback function
-var renderHotel = () => null;
+var renderHotel = hotel => <Hotel key={hotel.id} hotel={hotel}/>;
 
 /* functional component
   - accepts `hotels` data model as a prop
@@ -19,7 +20,8 @@ var HotelsList = props => {
     }
     // TODO: map over array using callback function to render each hotel
     // TODO: add the variable storing our list of JSX elements between the ul tags below!
-    return <ul className="hotels-list">{}</ul>;
+    var hotelsListElements = props.hotels.map(renderHotel);
+    return <ul className="hotels-list">{hotelsListElements}</ul>;
 };
 
 export default HotelsList;
