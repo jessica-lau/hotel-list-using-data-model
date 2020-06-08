@@ -2,7 +2,7 @@
 /* Notice how we've changed the data model for filters
 to make managing the state of the selected filters and the
 conditional rendering of our hotels easier. */
-export var filters = [
+export var filterOptions = [
     { display: "Free Cancellation", key: "hasFreeCancellation" },
     { display: "Breakfast Included", key: "includesBreakfast" },
     { display: "Bestsellers", key: "isBestSeller" },
@@ -24,7 +24,7 @@ export var hotels = [
         reviewCount: 2393,
         pricePerNight: 308.34,
         imageSrc:
-            "https://q-ak.bstatic.com/xdata/images/hotel/square600/50830720.webp?k=09768b0ae87f4fa875c8e8893d1c0cc75c98b62fc9fd1242d4a6b7970a9ace06&o=",
+            "https://ihg.scene7.com/is/image/ihg/holiday-inn-the-colony-4629618286-4x3",
         roomsRemaining: 9,
         hasFreeCancellation: true,
         includesBreakfast: true,
@@ -43,7 +43,7 @@ export var hotels = [
         reviewCount: 40642,
         pricePerNight: 240.0,
         imageSrc:
-            "https://q-ak.bstatic.com/xdata/images/hotel/square600/57772519.webp?k=99aea26a10d4489129aedf4fca8dd6f6e444cf8511c36ce96de1e9bf980d3e0e&o=",
+            "https://2486634c787a971a3554-d983ce57e4c84901daded0f67d5a004f.ssl.cf1.rackcdn.com/hotel-galvez-and-spa/media/hg-home-header-mobile-01-1-5d323bfd9ee62.jpg",
         roomsRemaining: 22,
         hasFreeCancellation: false,
         includesBreakfast: true,
