@@ -22,7 +22,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <Filters selectedFilters={this.state.selectedFilters} />
+        <Filters selectedFilters={this.state.selectedFilters} toggleFilter={this.toggleFilter}/>
         <Hotels selectedFilters={this.state.selectedFilters} />
       </div>
     );
